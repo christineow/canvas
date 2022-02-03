@@ -1,0 +1,75 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #ffebcd;
+}
+
+p {
+  color: #494444;
+  font-size: 16px;
+  position: center;
+  text-align: center;
+}
+
+.section--top {
+  background-image: url(images/bckgrnd1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section--about {
+  height: 300px;
+  max-width: 100%;
+  padding: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.border {
+  border-top: 1px solid #000000;
+  padding: 5%;
+}
+
+.section--work {
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery__item {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery__img {
+  width: 800px;
+  height: 1000px;
+}
+
+.section--footer {
+  background-color: #b5c49a;
+  height: 300px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 500px) {
+  .gallery__item {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
